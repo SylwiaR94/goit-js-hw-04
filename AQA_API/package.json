@@ -1,0 +1,21 @@
+{
+  "name": "aqa_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open:chrome": "npx cypress run -b chrome --headed",
+    "cypress:open:firexof": "npx cypress run -b firefox --headed",
+    "cypress:run:chrome": "npx cypress run -b chrome",
+    "cypress:run:firefox": "npx cypress run -b firefox",
+    "cypress:open:chrome:spec": "npx cypress run -b chrome --spec cypress/e2e/api-get.cy.js",
+    "cypress:open": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "cypress-mochawesome-reporter": "^3.8.0"
+  }
+}
